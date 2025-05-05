@@ -38,7 +38,7 @@ import { motion } from "framer-motion";
         >
           Connect with Me 
         </a>
-        <a href= "/cv.pdf"
+        <a href= "./cv.pdf"
           download
           
           className="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700 transition
