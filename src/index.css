@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+
+.aboutMe{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+}
+.aboutTitle{
+  margin-top: 50px;
+  color: black;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.aboutText{
+  color:black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.skillsDiv{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.skillName{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
