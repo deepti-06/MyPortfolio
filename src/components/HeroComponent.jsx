@@ -27,8 +27,7 @@ import { motion } from "framer-motion";
             Deepti
           </h2>
           <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8 flex justify-center">
-            Hi, I am a Frontend Developer with 4+ years of experience in building
-            responsive, scalable web applications using React.js, Redux, HTML, CSS, and JavaScript. I enjoy developing simple, clean and slick websites that provide real value to the end users.
+          Hi, I’m a Frontend Developer with over 4 years of experience in building responsive and scalable web applications using React.js, Redux, HTML, CSS, and JavaScript. I enjoy crafting simple, clean, and polished websites that deliver real value to users.
           </p>
         </div>
         <div className="mt-8 flex flex-row gap-4 justify-center" >

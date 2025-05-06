@@ -29,9 +29,10 @@ const Projects = ({title, content,language,image,link})=>{
       )}
      </div>
      <div className=" fw-full max-w-xs break-words mt-6">
-     <Link to= {link} className="text-blue-500 hover:text-blue-800 font-medium transition break-words w-full md:w-auto">
+     <a href = {link} className="text-blue-500 hover:text-blue-800 font-medium transition break-words w-full md:w-auto"
+       target="_blank">
      {link}
-     </Link>
+     </a>
      </div>
 
   </div>
