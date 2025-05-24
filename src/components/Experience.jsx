@@ -23,7 +23,7 @@ const experiences = [
 const Experience =()=>{
   return(
 
-    <div className="skillsDiv relative  mx-auto px-4  bg-gradient-to-r from-gray-100 via-blue-300 to-white "
+    <div className="skillsDiv relative  mx-auto px-4  bg-black "
     id ="experience">
           <h2 className="aboutTitle"> Latest Experience </h2>
 
@@ -43,7 +43,7 @@ const Experience =()=>{
           <div
             className={"md:w-1/2 md:pr-8 text-left"}
           >
-            <div className="bg-gradient-to-r from-gray-100 via-blue-200 to-white p-6 rounded-lg shadow-md">
+            <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="font-semibold">{exp.title}</h3>
               <p className="mt-2 text-gray-700">{exp.description}</p>
             </div>
@@ -53,7 +53,7 @@ const Experience =()=>{
             {exp.icon}
           </div>
 
-          <div className=" md:block text-sm text-gray-600">
+          <div className=" md:block text-sm text-white">
             {exp.date}
           </div>
         </motion.div>

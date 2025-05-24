@@ -7,7 +7,7 @@ const AboutMe = () => {
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.8 }}
   viewport={{ once: true }}
-    className="aboutMe w-full flex justify-center space-y-4 bg-gradient-to-b from-gray-150 via-blue-200 to-white">
+    className="aboutMe w-full flex justify-center space-y-4 bg-black">
       <h2 className="aboutTitle">About Me</h2>
       <p className="aboutText text-center max-w-3xl  text-lg ">
         Hey there! 👋 I'm a frontend developer who's all about turning beautiful

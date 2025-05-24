@@ -3,8 +3,14 @@ import Projects from "./Projects"
 const ProjectList =()=>{
 
   return(
-    <div className="skillsDiv  flex justify-center space-y-4 space-x-4 bg-gradient-to-r from-gray-100 via-blue-200 to-white py-12 px-4 gap-2">
+    <div className="skillsDiv  flex justify-center space-y-4 space-x-4 bg-black py-12 px-4 gap-2">
     <h2 className="aboutTitle">My Projects</h2>
+
+    <Projects title="Ecops"
+    content="ECops is a modern, web-based complaint management platform that bridges the gap between citizens and law enforcement. It enables users to file complaints online, track their status, and receive timely updates—all from the comfort of their home."
+    language={["React","TailwindCSS", "Render","redux toolkit","Javascript","Vite"]}
+    image="./img6.png"
+    link= "https://deepti-06.github.io/Ecops/"/>
 
     <Projects title="StyleNest"
     content="This is a personal project of an ecommerce website with features like login, add to cart, view cart and mark favorites. For backend there are api calls and server is hosted on Glitch."

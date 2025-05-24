@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="relative min-h-screen overflow-auto">
       <Header />
-      <div className="absolute inset-0  bg-gradient-to-b from-blue-300 via-gray-600 to-white">
+      <div className="absolute inset-0  bg-black">
         
       <div id ="home"><HeroComponent /></div>
       

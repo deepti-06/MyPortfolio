@@ -16,15 +16,15 @@ const Projects = ({title, content,language,image,link})=>{
     className="max-w-2xl mx-auto rounded-lg shadow-md border-1 border-white overflow-hidden flex flex-col md:flex-row hover:shadow-2xl">
   {/* Text Section */}
   <div className="p-6 flex flex-col justify-center md:w-1/2">
-    <h2 className="text-2xl font-bold mb-2">{title}</h2>
-    <p className="text-gray-700">
+    <h2 className="text-2xl font-bold mb-2 text-white">{title}</h2>
+    <p className="text-white">
       {content}
      
     </p>
     <div className="skillName space-x-1 max-w-3xl gap-0.5 mt-6 ">
       {language.map((skill)=>
    
-      <h5 className="text-sm text-white bg-black px-4 py-2 rounded shadow">{skill}</h5>
+      <h5 className="text-sm text-black bg-white px-4 py-2 rounded shadow">{skill}</h5>
       
       )}
      </div>

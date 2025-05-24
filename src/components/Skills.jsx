@@ -7,7 +7,7 @@ const Skills =()=>{
   ]
 
   return(
-    < div className="skillsDiv  flex justify-center space-y-4 space-x-4 bg-gradient-to-r from-gray-150 via-blue-200 to-white py-12 px-4 ">
+    < div className="skillsDiv  flex justify-center space-y-4 space-x-4 bg-black py-12 px-4 ">
      <h2 className="aboutTitle">Technical Skills</h2>
 
      <motion.div 
@@ -18,7 +18,7 @@ const Skills =()=>{
      className="skillName space-x-4 max-w-3xl gap-2">
       {skills.map((skill)=>
    
-      <h3 className="text-lg text-black-900 bg-white-100 px-4 py-2 rounded shadow">{skill}</h3>
+      <h3 className="text-lg text-white px-4 py-2 border-1 rounded shadow hover:bg-gray-600">{skill}</h3>
       
       )}
      </motion.div>
