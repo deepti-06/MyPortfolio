@@ -6,6 +6,12 @@ const ProjectList =()=>{
     <div className="skillsDiv  flex justify-center space-y-4 space-x-4 bg-black py-12 px-4 gap-2">
     <h2 className="aboutTitle">My Projects</h2>
 
+     <Projects title="3d-ShapeCraft"
+    content="3D ShapeCraft is an interactive web app built with TypeScript, Vite, Canvas, and TailwindCSS. It lets users explore 3D shapes like cubes, spheres, and prisms with mouse-based rotation, edge controls, and wireframe toggle. The app also displays real-time volume calculations for each shape and is fully responsive, deployed via GitHub Pages."
+    language={["React","TailwindCSS", "TypeScript","Javascript","Vite"]}
+    image="./img7.jpg"
+    link= "https://deepti-06.github.io/3d-Shapecraft/"/>
+
     <Projects title="Ecops"
     content="ECops is a modern, web-based complaint management platform that bridges the gap between citizens and law enforcement. It enables users to file complaints online, track their status, and receive timely updates—all from the comfort of their home."
     language={["React","TailwindCSS", "Render","redux toolkit","Javascript","Vite"]}
