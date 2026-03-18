@@ -18,11 +18,11 @@ const ProjectList =()=>{
     image="./img6.png"
     link= "https://deepti-06.github.io/Ecops/"/>
 
-    <Projects title="StyleNest"
+    {/* <Projects title="StyleNest"
     content="This is a personal project of an ecommerce website with features like login, add to cart, view cart and mark favorites. For backend there are api calls and server is hosted on Glitch."
     language={["React","Bootstrap", "Glitch","redux toolkit","Javascript","Vite"]}
     image="./img1.png"
-    link= "https://deepti-06.github.io/ProjectEcom/"/>
+    link= "https://deepti-06.github.io/ProjectEcom/"/> */}
 
     <Projects title="NikelToken"
     content="This is website which I worked on as a team member when I was working with my last company XCDM ltd. It is mainly built using React and Typescript. For css we have used tailiwnd Css."
